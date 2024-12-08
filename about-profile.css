@@ -1,0 +1,93 @@
+.interest_form {
+    float: left;
+    width: 100%;
+}
+
+.interest_form form {
+    float: left;
+    width: 100%;
+}
+
+.interest_form form .field {
+    display: flex;
+    margin: 0;
+}
+
+.interest_form form .field label.label_field {
+    margin: 0 0px 0 0;
+    width: 100%;
+    /* line-height: 45px; */
+    text-align: left;
+    /* height: 45px; */
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.interest_form form .field {
+    display: block;
+    margin: 0 0 0px;
+}
+
+.interest_form form .field input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #ddd 2px;
+    width: 100%;
+    line-height: normal;
+    font-weight: 300;
+    transition: ease all 0.5s;
+}
+
+.field {
+    padding-bottom: 25px;
+}
+
+select, textarea {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#contact-heading {
+    text-align: center;
+}
+
+textarea {
+    padding: 5px;
+    box-sizing: border-box;
+    border: solid #ddd 2px;
+    font-weight: 300;
+}
+
+.interest_form form .field input:hover,
+.interest_form form .field input:focus {
+    box-shadow: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.profile-save {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.main_bt_profile {
+    min-width: 125px;
+    height: auto;
+    left: 50%;
+    position: absolute;
+    background: #1ed085;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    font-weight: 300;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
+}

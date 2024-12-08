@@ -1,0 +1,9 @@
+.signup-link {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login-button {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(45%, -20%);
+}
