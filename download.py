@@ -1,6 +1,6 @@
-import os
-import csv
-import requests
+import os  # Importing os module for directory and file operations
+import csv  # Importing csv module for reading CSV files
+import requests  # Importing requests module for making HTTP requests
 
 def download_images_from_csv(csv_file, save_directory):
     # Create the save directory if it doesn't exist
@@ -8,7 +8,7 @@ def download_images_from_csv(csv_file, save_directory):
 
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
-        next(reader)
+        next(reader) # Skip header row
         for row in reader:
             # Assuming the URL is in the last column of each row
             image_url = row[-1]
